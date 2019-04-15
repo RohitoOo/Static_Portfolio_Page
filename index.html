@@ -1,118 +1,363 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap -->
+    <!-- Materialize - Compiled and minified CSS-->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Font Awesome Icon - CSS-->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="static/css/style.css" />
+    <title>Rohito Bhambhani | Full Stack Engineer</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Rohito Bhambhani | Full Stack Engineer"
+    />
+    <meta
+      property="og:description"
+      content="I just can't get enough of the Tech World..."
+    />
+    <meta property="og:url" content="rohito.com" />
+    <meta
+      property="og:site_name"
+      content="Rohito Bhambhani | Full Stack Engineer"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@rohitoOo" />
+    <meta name="author" content="Rohito Bhambhani" />
+    <meta
+      name="description"
+      content="I just can't get enough of this Tech World..."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="static/img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="static/img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="static/img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="static/img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="static/img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="static/img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="static/img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="static/img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="static/img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="static/img/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="static/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="static/img/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="static/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="static/img/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="static/img/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="index, follow" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- Bootstrap -->
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="static/css/style.css">
-  <title>Rohito Bhambhani | Full Stack Engineer</title>
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Rohito Bhambhani | Full Stack Engineer">
-  <meta property="og:description" content="I just can't get enough of the Tech World...">
-  <meta property="og:url" content="rohito.com">
-  <meta property="og:site_name" content="Rohito Bhambhani | Full Stack Engineer">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@rohitoOo">
-  <meta name="author" content="Rohito Bhambhani">
-  <meta name="description" content="I just can't get enough of this Tech World...">
-  <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="static/img/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
-  <link rel="manifest" href="static/img/favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="robots" content="index, follow">
-</head>
-
-<body>
-  <!-- Navigation Menu-->
-  <nav ng-class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text">
-          <h1>Rohito Bhambhani<span class="brown-text light">Full Stack Engineer</span></h1></a>
-
-      </li>
-      <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Personal Projects</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
-      <!-- <li class="bold"><a aria-label="Navigate to the Photos section" href="#photos" class="waves-effect waves-dark red-text"><i class="mdi-image-photo-camera small"></i><span>Photos</span></a></li> -->
-      <li class="bold"><a aria-label="Open Rohit's resume in a new tab" href="https://docs.google.com/document/d/1NI86TlbkSnAzD_Vk56pMXaL2gdl95Vd9dAkSbokLcCU/edit?usp=sharing" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
-    </ul>
-  </nav>
-  <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Rohito Bhambhani</a><span class="brown-text light">Full Stack Engineer</span></div>
-  </nav>
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Personal Projects</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
-      <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
-      <!-- <li class="bold"><a aria-label="Navigate to the Photos section" href="#photos" class="waves-effect waves-dark red-text"><i class="mdi-image-photo-camera small"></i><span>Photos</span></a></li> -->
-      <li class="bold"><a aria-label="Open Rohit's Resume in a new tab" href="https://docs.google.com/document/d/1NI86TlbkSnAzD_Vk56pMXaL2gdl95Vd9dAkSbokLcCU/edit?usp=sharing" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
-    </ul>
-  </nav>
-  <!-- Main Content-->
-  <main>
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <h2>Business Psychology & <span class="teal">Technology</span><br> <span>I Just Can't Get Enough</span>...</h2>
+  <body>
+    <!-- Navigation Menu-->
+    <nav ng-class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo">
+          <a
+            id="logo-container"
+            aria-label="Navigate to the beginning of the page"
+            href="#intro"
+            class="brand-logo teal-text"
+          >
+            <h1>
+              Rohito Bhambhani<span class="brown-text light"
+                >Full Stack Engineer</span
+              >
+            </h1></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-person small"></i><span>About</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark purple-text"
+            ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark indigo-text"
+            ><i class="mdi-av-web small"></i><span>Personal Projects</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Experience section"
+            href="#experience"
+            class="waves-effect waves-dark cyan-text"
+            ><i class="mdi-action-trending-up small"></i
+            ><span>Experience</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Education section"
+            href="#education"
+            class="waves-effect waves-dark orange-text"
+            ><i class="mdi-social-school small"></i><span>Education</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark brown-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+        <!-- <li class="bold"><a aria-label="Navigate to the Photos section" href="#photos" class="waves-effect waves-dark red-text"><i class="mdi-image-photo-camera small"></i><span>Photos</span></a></li> -->
+        <li class="bold">
+          <a
+            aria-label="Open Rohit's resume in a new tab"
+            href="https://docs.google.com/document/d/1NI86TlbkSnAzD_Vk56pMXaL2gdl95Vd9dAkSbokLcCU/edit?usp=sharing"
+            target="_blank"
+            class="waves-effect waves-dark grey-text text-darken-3"
+            ><i class="mdi-action-description small"></i><span>Resume</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1">
+      <a
+        aria-label="Toggle visibility of the mobile navbar"
+        href="#"
+        data-activates="slide-out"
+        class="button-collapse"
+        ><i class="mdi-navigation-menu"></i
+      ></a>
+      <div class="name-title">
+        <a
+          id="name"
+          aria-label="Navigate to the beginning of the page"
+          href="#main"
+          class="teal-text"
+          >Rohito Bhambhani</a
+        ><span class="brown-text light">Full Stack Engineer</span>
       </div>
-    </section>
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">
-        <blockquote>
-          <h2>Mission-driven full stack software engineer with a passion for thoughtful UI design, collaboration, and business development.</h2>
-        </blockquote>
-        <p>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many twists and turns, I've never stopped engaging my passion to help others and solve problems.</p>
-        <p>As a Software Engineer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company.</p>
-        <h5><strong>Current Focus :</strong> Mongo Express React NodeJs </h5>
-      </div>
-
-    </section>
-    <section id="skills" class="section scrollspy">
+    </nav>
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-person small"></i><span>About</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark purple-text"
+            ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark indigo-text"
+            ><i class="mdi-av-web small"></i><span>Personal Projects</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Experience section"
+            href="#experience"
+            class="waves-effect waves-dark cyan-text"
+            ><i class="mdi-action-trending-up small"></i
+            ><span>Experience</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Education section"
+            href="#education"
+            class="waves-effect waves-dark orange-text"
+            ><i class="mdi-social-school small"></i><span>Education</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark brown-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+        <!-- <li class="bold"><a aria-label="Navigate to the Photos section" href="#photos" class="waves-effect waves-dark red-text"><i class="mdi-image-photo-camera small"></i><span>Photos</span></a></li> -->
+        <li class="bold">
+          <a
+            aria-label="Open Rohit's Resume in a new tab"
+            href="https://docs.google.com/document/d/1NI86TlbkSnAzD_Vk56pMXaL2gdl95Vd9dAkSbokLcCU/edit?usp=sharing"
+            target="_blank"
+            class="waves-effect waves-dark grey-text text-darken-3"
+            ><i class="mdi-action-description small"></i><span>Resume</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+          <h2>
+            Business Psychology & <span class="teal">Technology</span><br />
+            <span>I Just Can't Get Enough</span>...
+          </h2>
+        </div>
+      </section>
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <blockquote>
+            <h2>
+              Mission-driven full stack software engineer with a passion for
+              thoughtful UI design, collaboration, and business development.
+            </h2>
+          </blockquote>
+          <p>
+            I’ve always sought out opportunities and challenges that are
+            meaningful to me. Although my professional path has taken many
+            twists and turns, I've never stopped engaging my passion to help
+            others and solve problems.
+          </p>
+          <p>
+            As a Software Engineer, I enjoy using my obsessive attention to
+            detail, my unequivocal love for making things, and my mission-driven
+            work ethic to literally change the world. That's why I’m excited to
+            make a big impact at a high growth company.
+          </p>
+          <h5>
+            <strong>Current Focus :</strong> Mongo ExpressJS React NodeJS -
+            JavaScript
+          </h5>
+        </div>
+      </section>
+      <section id="skills" class="section scrollspy">
         <h3 class="page-title white-text teal">Skills</h3>
         <div class="container">
           <div class="card">
             <div class="card-content">
               <h4 class="brown-text light">HTML</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img alt="" src="static/img/html5.png" class="responsive-img">HTML5</div>
-                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img">JSX</div>
-                <div class="col s4 m2"><img alt="" src="static/img/pug.png" class="responsive-img">Pug</div>
-                <div class="col s4 m2"><img alt="" src="static/img/ejs.png" class="responsive-img">Ejs</div>
-  
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/html5.png"
+                    class="responsive-img"
+                  />HTML5
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/react.png"
+                    class="responsive-img"
+                  />JSX
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/pug.png"
+                    class="responsive-img"
+                  />Pug
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/ejs.png"
+                    class="responsive-img"
+                  />Ejs
+                </div>
               </div>
             </div>
           </div>
@@ -120,12 +365,41 @@
             <div class="card-content">
               <h4 class="brown-text light">CSS</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img alt="" src="static/img/css3.png" class="responsive-img">CSS3</div>
-                <div class="col s4 m2"><img alt="" src="static/img/bootstrap.png" class="responsive-img">Bootstrap</div>
-                <div class="col s4 m2"><img alt="" src="static/img/materialize.png" class="responsive-img">Materialize</div>
-                <div class="col s4 m2"><img alt="" src="static/img/less.png" class="responsive-img">LESS</div>
-                <div class="col s4 m2"><img alt="" src="static/img/sass.png" class="responsive-img">Sass</div>
-  
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/css3.png"
+                    class="responsive-img"
+                  />CSS3
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/bootstrap.png"
+                    class="responsive-img"
+                  />Bootstrap
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/materialize.png"
+                    class="responsive-img"
+                  />Materialize
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/less.png"
+                    class="responsive-img"
+                  />LESS
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/sass.png"
+                    class="responsive-img"
+                  />Sass
+                </div>
               </div>
             </div>
           </div>
@@ -133,46 +407,204 @@
             <div class="card-content">
               <h4 class="brown-text light">Javascript</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img">ReactJs</div>
-                <div class="col s4 m2"><img alt="" src="static/img/javascript.png" class="responsive-img">Javascript</div>
-                <div class="col s4 m2"><img alt="" src="static/img/jquery.png" class="responsive-img">jQuery</div>
-                <div class="col s4 m2"><img alt="" src="static/img/nodejs.png" class="responsive-img">NodeJs</div>
-                <div class="col s4 m2"><img alt="" src="static/img/socketio.png" class="responsive-img">Socket.IO</div>
-                <div class="col s4 m2"><img alt="" src="static/img/jest.png" class="responsive-img">Jest</div>
-  
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/react.png"
+                    class="responsive-img"
+                  />ReactJs
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/javascript.png"
+                    class="responsive-img"
+                  />Javascript
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/jquery.png"
+                    class="responsive-img"
+                  />jQuery
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/nodejs.png"
+                    class="responsive-img"
+                  />NodeJs
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/socketio.png"
+                    class="responsive-img"
+                  />Socket.IO
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/jest.png"
+                    class="responsive-img"
+                  />Jest
+                </div>
               </div>
             </div>
           </div>
+       
           <div class="card">
             <div class="card-content">
               <h4 class="brown-text light">Back-End</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img alt="NodeJs" src="static/img/nodejs.png" class="responsive-img">NodeJs</div>
-                <div class="col s4 m2"><img alt="ExpressJs" src="static/img/express-js.png" class="responsive-img">ExpressJs</div>
-                <div class="col s4 m2"><img alt="MongoDB" src="static/img/mongodb.png" class="responsive-img">MongoDB</div>
-                <div class="col s4 m2"><img alt="AWS" src="static/img/dynamodb.png" class="responsive-img">AWS</div>
-                <div class="col s4 m2"><img alt="sql" src="static/img/sql.png" class="responsive-img">SQL</div>
-                <div class="col s4 m2"><img alt="robo3t" src="static/img/robo3t.png" class="responsive-img">Robo3T</div>
+                <div class="col s4 m2">
+                  <img
+                    alt="NodeJs"
+                    src="static/img/nodejs.png"
+                    class="responsive-img"
+                  />NodeJs
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt="ExpressJs"
+                    src="static/img/javascript.png"
+                    class="responsive-img"
+                  />ExpressJS
+                </div>
+                <div class="col s4 m2">
+                    <img
+                      alt="CommandLine"
+                      src="static/img/commandline.png"
+                      class="responsive-img"
+                    />Command Line
+                </div>   
+                <div class="col s4 m2">
+                    <img
+                      alt="Linux"
+                      src="static/img/linux.png"
+                      class="responsive-img"
+                    />Linux
+                </div> 
+                <div class="col s4 m2">
+                    <img
+                      alt="RestAPI"
+                      src="static/img/restAPI.png"
+                      class="responsive-img"
+                    />REST API
+                </div>
+                <div class="col s4 m2">
+                    <img
+                      alt="Graphql"
+                      src="static/img/graphql.png"
+                      class="responsive-img"
+                    />GraphQL
+                </div>               
               </div>
             </div>
           </div>
           <div class="card">
-            <div class="card-content">
-              <h4 class="brown-text light">Build Tools</h4>
-              <div class="row text-center">
-                <div class="col s4 m2"><img alt="" src="static/img/webpack.png" class="responsive-img">Webpack</div>
-                <div class="col s4 m2"><img alt="" src="static/img/gulp.png" class="responsive-img">Gulp</div>
-                <div class="col s4 m2"><img alt="" src="static/img/grunt.png" class="responsive-img">Grunt</div>
-                <div class="col s4 m2"><img alt="" src="static/img/bower.png" class="responsive-img">Bower</div>
+              <div class="card-content">
+                <h4 class="brown-text light">Databases</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img
+                      alt="AWS"
+                      src="static/img/aws.png"
+                      class="responsive-img"
+                    />DynamoDB
+                  </div>
+                  <div class="col s4 m2">
+                    <img
+                      alt="sql"
+                      src="static/img/sql.png"
+                      class="responsive-img"
+                    />SQL
+                  </div>
+                  <div class="col s4 m2">
+                    <img
+                      alt="MongoDB"
+                      src="static/img/mongodb.png"
+                      class="responsive-img"
+                    />MongoDB
+                  </div>
+                  <div class="col s4 m2">
+                    <img
+                      alt="PostgresDB"
+                      src="static/img/postgresDB.png"
+                      class="responsive-img"
+                    />PostgresDB
+                  </div>
+                  <div class="col s4 m2">
+                    <img
+                      alt="Postico"
+                      src="static/img/postico.png"
+                      class="responsive-img"
+                    />Postico
+                  </div>
+  
+                  <div class="col s4 m2">
+                    <img
+                      alt="robo3t"
+                      src="static/img/robo3t.png"
+                      class="responsive-img"
+                    />Robo3T
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Build Tools</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2">
+                    <img
+                      alt=""
+                      src="static/img/webpack.png"
+                      class="responsive-img"
+                    />Webpack
+                  </div>
+                  <div class="col s4 m2">
+                    <img
+                      alt=""
+                      src="static/img/gulp.png"
+                      class="responsive-img"
+                    />Gulp
+                  </div>
+                  <div class="col s4 m2">
+                    <img
+                      alt=""
+                      src="static/img/grunt.png"
+                      class="responsive-img"
+                    />Grunt
+                  </div>
+                  <div class="col s4 m2">
+                    <img
+                      alt=""
+                      src="static/img/bower.png"
+                      class="responsive-img"
+                    />Bower
+                  </div>
+                </div>
+              </div>
+            </div>
           <div class="card">
             <div class="card-content">
               <h4 class="brown-text light">CMS</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img alt="" src="static/img/wordpress.png" class="responsive-img">Wordpress</div>
-                <div class="col s4 m2"><img alt="" src="static/img/opencart.png" class="responsive-img">Open Cart</div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/wordpress.png"
+                    class="responsive-img"
+                  />Wordpress
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/opencart.png"
+                    class="responsive-img"
+                  />Open Cart
+                </div>
               </div>
             </div>
           </div>
@@ -180,427 +612,1092 @@
             <div class="card-content">
               <h4 class="brown-text light">Other</h4>
               <div class="row text-center">
-                <div class="col s4 m2"><img alt="" src="static/img/github.png" class="responsive-img">Github</div>
-                <div class="col s4 m2"><img alt="" src="static/img/jira.png" class="responsive-img">Jira</div>
-                <div class="col s4 m2"><img alt="" src="static/img/aws.png" class="responsive-img">AWS</div>
-                <div class="col s4 m2"><img alt="" src="static/img/google-cloud.png" class="responsive-img">Google Cloud</div>
-                <div class="col s4 m2"><img alt="" src="static/img/digitalOcean.png" class="responsive-img">Digital Ocean</div>
-                <div class="col s4 m2"><img alt="" src="static/img/heroku.png" class="responsive-img">Heroku</div>
-                <div class="col s4 m2"><img alt="" src="static/img/es6.png" class="responsive-img">ES6</div>
-                <div class="col s4 m2"><img alt="" src="static/img/slack.png" class="responsive-img">Slack</div>
-                <div class="col s4 m2"><img alt="" src="static/img/trello.png" class="responsive-img">Trello</div>
-                <div class="col s4 m2"><img alt="" src="static/img/sourceTree.png" class="responsive-img">Smart Git</div>
-                <div class="col s4 m2"><img alt="" src="static/img/cognito.png" class="responsive-img">AWS Cognito</div>
-                <div class="col s4 m2"><img alt="" src="static/img/graphql.png" class="responsive-img">Graph QL</div>
-  
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/github.png"
+                    class="responsive-img"
+                  />Github
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/jira.png"
+                    class="responsive-img"
+                  />Jira
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/aws.png"
+                    class="responsive-img"
+                  />AWS
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/google-cloud.png"
+                    class="responsive-img"
+                  />Google Cloud
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/digitalOcean.png"
+                    class="responsive-img"
+                  />Digital Ocean
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/heroku.png"
+                    class="responsive-img"
+                  />Heroku
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/es6.png"
+                    class="responsive-img"
+                  />ES6
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/slack.png"
+                    class="responsive-img"
+                  />Slack
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/trello.png"
+                    class="responsive-img"
+                  />Trello
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/sourceTree.png"
+                    class="responsive-img"
+                  />Smart GIT
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/cognito.png"
+                    class="responsive-img"
+                  />AWS Cognito
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="static/img/graphql.png"
+                    class="responsive-img"
+                  />Graph QL
+                </div>
               </div>
             </div>
           </div>
         </div>
-    </section>
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Personal Projects</h3>
-      <div class="container">
-        <div class="row">
-          <!-- 1-->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of Crud web app" src="static/img/crud.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">Music Playlist<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Music Playlist App To Manage A Personalized Music Playlist.</p>
+      </section>
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Personal Projects</h3>
+        <div class="container">
+          <div class="row">
+            <!-- 1-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Crud web app"
+                    src="static/img/crud.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Music Playlist<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    Music Playlist App To Manage A Personalized Music Playlist.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong>NodeJs ExpressJs</strong> backend</li>
+                    <li><strong>MongoDb Mongoose </strong> database</li>
+                    <li><strong>Client-side Rendering</strong> via Pug/Jade</li>
+                    <li>
+                      User <strong> Authentication</strong> via Passport &
+                      Bcryptjs
+                    </li>
+                    <li>User <strong> Validation</strong> Express Validator</li>
+                    <li><strong>UX / UI </strong>Connect-Flash Messages</li>
+                    <li><strong>Heroku</strong>Deployment</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://crudmusiplaylist.herokuapp.com/users/register"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the Crud project"
+                      href="https://github.com/RohitoOo/Music-Playlist-Crud-App"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong>NodeJs ExpressJs</strong> backend</li>
-                  <li><strong>MongoDb Mongoose </strong> database</li>
-                  <li><strong>Client-side Rendering</strong> via Pug/Jade</li>
-                  <li>User <strong> Authentication</strong> via Passport & Bcryptjs</li>
-                  <li>User <strong> Validation</strong> Express Validator</li>
-                  <li><strong>UX / UI </strong>Connect-Flash Messages</li>
-                  <li><strong>Digital Ocean</strong>Deployment</li>
-
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="https://sheltered-chamber-10022.herokuapp.com/"  target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the Crud project" href="https://github.com/RohitoOo/Music-Playlist-Crud-App" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
+            </div>
+            <!-- 2 -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Mern Application"
+                    src="static/img/mern.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >MERN Application<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>MERN Shopping List Using Redux State Management</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong>MongoDb</strong> database</li>
+                    <li><strong>ReactJs</strong> frontend</li>
+                    <li>
+                      <strong>React Styling</strong> react-redux / reactstrap
+                    </li>
+                    <li><strong>React UI / UX</strong> React Transitions</li>
+                    <li><strong>Redux</strong> frontend State Management</li>
+                    <li><strong>ExpressJs NodeJs</strong> backend</li>
+                    <li>
+                      <strong>Concurrently</strong> running Front And Back End
+                      Servers
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://fullstack-mern.herokuapp.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the MERN project"
+                      href="https://github.com/RohitoOo/Mern_Shopping_List"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Crud web app"
+                    src="static/img/crud1.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Online Songs Collection<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>Create A Songs Playlist And Listen Online</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong>NodeJs ExpressJs</strong> backend</li>
+                    <li><strong>MongoDb Mongoose</strong> database</li>
+                    <li><strong>EJS</strong> for Client Side Rendering</li>
+                    <li>
+                      <strong>Passport & Bcryptjs</strong> for User
+                      Authentication
+                    </li>
+                    <li>User <strong>Validation</strong>Express Validator</li>
+                    <li><strong>UX / UI </strong>Connect-Flash Messages</li>
+                    <li><strong>Digital Ocean</strong>Deployment</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://crud-app-music-playlist.herokuapp.com/users/register"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the Crud project"
+                      href="https://github.com/RohitoOo/Crud_WebApplication.git"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Soccer React App"
+                    src="static/img/react_copy.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Fantasy Football React Redux App<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    Create Your Dream Team With Your Favourite Soccer Players
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong> HTML5 CSS3 JavaScript</strong> Frontend</li>
+                    <li><strong>ReactJs</strong> Frontend</li>
+                    <li><strong>Redux</strong> State Management</li>
+                    <li><strong>Nodejs</strong> Backend</li>
+                    <li><strong>Heroku</strong> Deployment</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://floating-bastion-67582.herokuapp.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the React Project"
+                      href="https://github.com/RohitoOo/React_Redux_Soccer_Team_App"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of React web app"
+                    src="static/img/nodejs.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >NodeJs App - To Do List<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>NodeJs Application To Create And Manage Tasks.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong>NodeJs</strong> Back End</li>
+                    <li><strong>Express</strong> Back End</li>
+                    <li><strong>MongoDb</strong> Back End</li>
+                    <li><strong>Ejs</strong> Front End Templating Engine</li>
+                    <li><strong>Heroku</strong> Deployment</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://infinite-journey-81412.herokuapp.com"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the React project"
+                      href="https://github.com/RohitoOo/NodeJs_ToDoApp"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Live Chat Application"
+                    src="static/img/socketio1.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >WhatsApp<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    Real Time Bi-directional Communication Between Multiple
+                    Clients and A Common Server.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong>Socket.IO</strong> Browser And Server</li>
+                    <li><strong>ExpressJs</strong> NodeJs framework</li>
+                    <li><strong>NodeJs</strong> Backend</li>
+                    <li><strong>Heroku</strong> Deployment</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://pacific-springs-28604.herokuapp.com"
+                      target="_blank"
+                      onclick="location.href='https://pacific-springs-28604.herokuapp.com'"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the Web_Sockets project"
+                      href="https://github.com/RohitoOo/Web_Sockets.git"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 7 -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Jest Testing React App"
+                    src="static/img/react_copy.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Jest / Enzyme Testing React App<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>Unit Testing W/ Jest And Enzyme</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong> HTML5 CSS3 JavaScript</strong> Frontend</li>
+                    <li><strong>ReactJs</strong> Frontend</li>
+                    <li><strong>Jest Enzyme</strong> Unit Testing</li>
+                    <li><strong>Flex Box</strong> Responsiveness</li>
+                    <li><strong>Nodejs</strong> Backend</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://github.com/RohitoOo/Jest_Testing_React"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the React Project"
+                      href="https://github.com/RohitoOo/Jest_Testing_React"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 8 -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of NodeJS web app"
+                    src="static/img/express-js.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >NodeJs Image Uploaded<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>Simple NodeJs Application To Upload Images</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong> HTML5 CSS3 JavaScript</strong> Frontend</li>
+                    <li><strong> Multer</strong> Image Uploading</li>
+                    <li><strong>Express</strong> Front End</li>
+                    <li><strong>EJS</strong> Templating Engine</li>
+                    <li><strong>Materialze Css</strong> Styling UI</li>
+                    <li><strong>Heroku</strong> Deployment</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://murmuring-wildwood-34860.herokuapp.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the React project"
+                      href="https://github.com/RohitoOo/NodeJs_Image_Uploader"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 9 -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Google Oauth App"
+                    src="static/img/passportjs.png"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Google Oauth App<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>Login / Logout Securely With Google OAuth.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Technology<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong> HTML5 CSS3 JavaScript</strong> Frontend</li>
+                    <li><strong> PassportJS </strong> Authentication</li>
+                    <li><strong> Google </strong> OAuth</li>
+                    <li><strong>Express</strong> Front End</li>
+                    <li><strong>EJS</strong> Templating Engine</li>
+                    <li><strong>Materialze Css</strong> Styling UI</li>
+                    <li><strong>Heroku</strong> Deployment</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Hosted On Cloud Server"
+                      href="https://gentle-cove-28403.herokuapp.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for the Web_Sockets project"
+                      href="https://github.com/RohitoOo/JWT_Authentication-Oauth_Authentication"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- 2 -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of Mern Application" src="static/img/mern.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">MERN Application<i class="mdi-navigation-more-vert right"></i></span>
-                <p>MERN Shopping List Using Redux State Management</p>
-              </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong>MongoDb</strong> database</li>
-                  <li><strong>ReactJs</strong> frontend</li>
-                  <li><strong>React Styling</strong> react-redux / reactstrap </li>
-                  <li><strong>React UI / UX</strong> React Transitions</li>
-                  <li><strong>Redux</strong> frontend State Management</li>
-                  <li><strong>ExpressJs NodeJs</strong> backend</li>
-                  <li><strong>Concurrently</strong> running Front And Back End Servers</li>
-                  <li><strong>Digital Ocean</strong> Deployment</li>
-
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="http://159.65.155.169/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the MERN project" href="https://github.com/RohitoOo/Mern_Shopping_List" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of Crud web app" src="static/img/crud1.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">Online Songs Collection<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Create A Songs Playlist And Listen Online</p>
-              </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong>NodeJs ExpressJs</strong> backend</li>
-                  <li><strong>MongoDb Mongoose</strong> database</li>
-                  <li><strong>EJS</strong> for Client Side Rendering </li>
-                  <li><strong>Passport & Bcryptjs</strong> for User Authentication </li>
-                  <li>User <strong>Validation</strong>Express Validator</li>
-                  <li><strong>UX / UI </strong>Connect-Flash Messages</li>
-                  <li><strong>Digital Ocean</strong>Deployment</li>
-
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="https://mysterious-forest-55765.herokuapp.com/users/register" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the Crud project" href="https://github.com/RohitoOo/Crud_WebApplication.git" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!-- 4 -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of Soccer React App" src="static/img/react_copy.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">Fantasy Football React Redux App<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Create Your Dream Team With Your Favourite Soccer Players</p>
-              </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong> HTML5 CSS3 JavaScript</strong> Frontend</li>
-                  <li><strong>ReactJs</strong> Frontend</li>
-                  <li><strong>Redux</strong> State Management</li>
-                  <li><strong>Nodejs</strong> Backend</li>
-                  <li><strong>Heroku</strong> Deployment</li>
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="https://floating-bastion-67582.herokuapp.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the React Project" href="https://github.com/RohitoOo/React_Redux_Soccer_Team_App" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 5 -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of React web app" src="static/img/nodejs.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">NodeJs App - To Do List<i class="mdi-navigation-more-vert right"></i></span>
-                <p>NodeJs Application To Create And Manage Tasks.</p>
-              </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong>NodeJs</strong> Back End</li>
-                  <li><strong>Express</strong> Back End</li>
-                  <li><strong>MongoDb</strong> Back End</li>
-                  <li><strong>Ejs</strong> Front End Templating Engine</li>
-                  <li><strong>Heroku</strong> Deployment</li>
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="https://infinite-journey-81412.herokuapp.com" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the React project" href="https://github.com/RohitoOo/NodeJs_ToDoApp" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 6 -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of Live Chat Application" src="static/img/socketio1.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">Live Chat Application<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Real Time Bi-directional Communication Between Multiple Clients and A Common Server.</p>
-              </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong>Socket.IO</strong> Browser And Server</li>
-                  <li><strong>ExpressJs</strong> NodeJs framework</li>
-                  <li><strong>NodeJs</strong> Backend</li>
-                  <li><strong>Heroku</strong>Deployment</li>
-
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="https://pacific-springs-28604.herokuapp.com" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the Web_Sockets project" href="https://github.com/RohitoOo/Web_Sockets.git" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-           <!-- 7 -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of Jest Testing React App" src="static/img/react_copy.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">Jest / Enzyme Testing React App<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Unit Testing W/ Jest And Enzyme</p>
-              </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong> HTML5 CSS3 JavaScript</strong> Frontend</li>
-                  <li><strong>ReactJs</strong> Frontend</li>
-                  <li><strong>Jest Enzyme</strong> Unit Testing</li>
-                  <li><strong>Flex Box</strong> Responsiveness</li>
-                  <li><strong>Nodejs</strong> Backend</li>
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="https://github.com/RohitoOo/Jest_Testing_React" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the React Project" href="https://github.com/RohitoOo/Jest_Testing_React" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 8 -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of NodeJS web app" src="static/img/express-js.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">NodeJs Image Uploaded<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Simple NodeJs Application To Upload Images</p>
-              </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong> HTML5 CSS3 JavaScript</strong> Frontend</li>
-                  <li><strong> Multer</strong> Image Uploading</li>
-                  <li><strong>Express</strong> Front End</li>
-                  <li><strong>EJS</strong> Templating Engine</li>
-                  <li><strong>Materialze Css</strong> Styling UI</li>
-                  <li><strong>Heroku</strong> Deployment</li>
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="https://murmuring-wildwood-34860.herokuapp.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the React project" href="https://github.com/RohitoOo/NodeJs_Image_Uploader" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- 9 -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of Google Oauth App" src="static/img/passportjs.png" class="activator"></div>
-              <div class="card-content"><span class="card-title activator teal-text hoverline">Google Oauth App<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Login / Logout Securely With Google OAuth.</p>
-              </div>
-              <div class="card-reveal"><span class="card-title brown-text">Technology<i class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><strong> HTML5 CSS3 JavaScript</strong> Frontend</li>
-                  <li><strong> PassportJS </strong> Authentication</li>
-                  <li><strong> Google </strong> OAuth</li>
-                  <li><strong>Express</strong> Front End</li>
-                  <li><strong>EJS</strong> Templating Engine</li>
-                  <li><strong>Materialze Css</strong> Styling UI</li>
-                  <li><strong>Heroku</strong> Deployment</li>
-                </ul>
-                <div class="card-action"><a aria-label="Visit Code Hosted On Cloud Server" href="https://gentle-cove-28403.herokuapp.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a>
-                  <a
-                    aria-label="Visit the GitHub repo for the Web_Sockets project" href="https://github.com/RohitoOo/JWT_Authentication-Oauth_Authentication" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>         
         </div>
-      </div>   
-    </section>
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Work Experience</h3>
-      <div class="container">
-         <!-- Job -->
-         <div class="card">
+      </section>
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Work Experience</h3>
+        <div class="container">
+          <!-- Job -->
+          <div class="card">
             <div class="card-content">
               <div class="row">
-                <div  background="black" class="col s12 m2"><a href="https://ethica.partners/" target="_blank"><img alt="Ethica Partners" src="./static/img/ethica.png" class="responsive-img center-block"></a></div>
+                <div background="black" class="col s12 m2">
+                  <a href="https://ethica.partners/" target="_blank"
+                    ><img
+                      alt="Ethica Partners"
+                      src="./static/img/ethica.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
                 <div class="col s12 m10">
-                  <p><span class="card-title"><a href="https://ethica.partners/" target="_blank" class="teal-text hoverline">Ethica Partners</a></span></p>
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://ethica.partners/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Ethica Partners</a
+                      ></span
+                    >
+                  </p>
                 </div>
               </div>
               <div class="role brown-text">Software Engineer</div>
-              <p><em class="grey-text">By providing high-value software solutions that solve last-mile connectivity issues, Ethica Partners is a SD-WAN solution, giving Internet Service Providers and their end-customers the confidence they need to leverage the Internet to conduct business.</em></p>
+              <p>
+                <em class="grey-text"
+                  >By providing high-value software solutions that solve
+                  last-mile connectivity issues, Ethica Partners is a SD-WAN
+                  solution, giving Internet Service Providers and their
+                  end-customers the confidence they need to leverage the
+                  Internet to conduct business.</em
+                >
+              </p>
               <h6>Responsibilities</h6>
               <ul>
-                  <li>Served as a <strong>liaison</strong> between different business units, for business and process improvement, in order to understand expectations and <strong>gather requirements</strong>.</li>
-                  <li>Conducted individual and group <strong>JAD sessions</strong> with stakeholders and technical units to gather detailed requirements.</li>
-                  <li>Conducted <strong>AS-IS and TO-BE</strong> analysis to determine the feasibility of the project.</li>
-                  <li>Performed <strong>GAP analysis</strong> of business rules and business system process flows.</li>
-                  <li>Identified processes that could be re-engineered, automated and eliminated in order to optimize the business as usual operations.</li>
-                  <li>Verified requirements with users by conducting walkthroughs.</li>
-                  <li>Created <strong>user stories</strong> and updated product backlog based on priority.</li>
-                  <li>Utilized UML to create use case diagram, sequence diagram, and activity diagram.</li>
-                  <li>Worked with quality test team to design test plans and test cases for <strong>User Acceptance Testing (UAT)</strong>.</li>
-                </ul>
-              <br>
+                <li>
+                  Served as a <strong>liaison</strong> between different
+                  business units, for business and process improvement, in order
+                  to understand expectations and
+                  <strong>gather requirements</strong>.
+                </li>
+                <li>
+                  Conducted individual and group
+                  <strong>JAD sessions</strong> with stakeholders and technical
+                  units to gather detailed requirements.
+                </li>
+                <li>
+                  Conducted <strong>AS-IS and TO-BE</strong> analysis to
+                  determine the feasibility of the project.
+                </li>
+                <li>
+                  Performed <strong>GAP analysis</strong> of business rules and
+                  business system process flows.
+                </li>
+                <li>
+                  Identified processes that could be re-engineered, automated
+                  and eliminated in order to optimize the business as usual
+                  operations.
+                </li>
+                <li>
+                  Verified requirements with users by conducting walkthroughs.
+                </li>
+                <li>
+                  Created <strong>user stories</strong> and updated product
+                  backlog based on priority.
+                </li>
+                <li>
+                  Utilized UML to create use case diagram, sequence diagram, and
+                  activity diagram.
+                </li>
+                <li>
+                  Worked with quality test team to design test plans and test
+                  cases for <strong>User Acceptance Testing (UAT)</strong>.
+                </li>
+              </ul>
+              <br />
             </div>
-            <div class="card-action"><span>Nov 2018 - Present | Toronto, ON</span></div>
+            <div class="card-action">
+              <span>Nov 2018 - Present | Toronto, ON</span>
+            </div>
           </div>
-        <!-- Job -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2"><a href="https://www.accionlabs.com/" target="_blank"><img alt="Accions Labs" src="static/img/accion.png" class="responsive-img center-block"></a></div>
-              <div class="col s12 m10">
-                <p><span class="card-title"><a href="https://www.accionlabs.com/" target="_blank" class="teal-text hoverline">Accion Labs</a></span></p>
+          <!-- Job -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://www.accionlabs.com/" target="_blank">
+                    <img
+                      alt="Accions Labs"
+                      src="static/img/accion.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.accionlabs.com/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Accion Labs</a
+                      ></span
+                    >
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="role brown-text">Full Stack Web Developer</div>
-            <p><em class="grey-text">Full Stack Javascript Programming</em></p>
-            <ul>
-              <li>Setting up Dev Environment</li>
-              <li>Linux, Shell Scripting, Cron Jobs</li>
-              <li>HTML5, CSS3, and jQuery</li>
-              <li>Object Oriented Programming</li>
-              <li>Data Structure And Algos</li>
-              <li>Debugging</li>
-              <li>Setting up GIT, GITHUB, SSH</li>
-              <li>Node.js Packages</li>
-              <li>ReactJs, Express.js and MongoDb</li>
-              <li>Planning/Creating Wireframes and Schemas</li>
-              <li>Agile Software Development Life Cycle</li>
-              <li>Creating REST API</li>
-              <li>UI/UX Designing</li>
-              <li>Cloud Computing</li>
-            </ul>
-            <br>
-                <a href="#projects">Personal Projects</a>
+              <div class="role brown-text">Full Stack Web Developer</div>
+              <p>
+                <em class="grey-text">Full Stack Javascript Programming</em>
+              </p>
               <ul>
-                <li> <a href="http://159.65.155.169" target="_blank"><strong>Mongo Express React Node</strong> Full Stack Project</a></li>
-                <li> <a href="https://mysterious-forest-55765.herokuapp.com/users/register" target="_blank"><strong>Crud</strong> - Music Application </a></li>
-                <li> <a href="https://lit-oasis-18945.herokuapp.com/" target="_blank"><strong>ReactJS</strong> - Song's Lyrics Search App </a></li>
-                <li> <a href="https://floating-bastion-67582.herokuapp.com/" target="_blank"><strong>ReactJs Redux</strong> - Fantasy Football App </a></li>
-                <li> <a href="https://afternoon-anchorage-32108.herokuapp.com/" target="_blank"><strong>ReactJs</strong> - To Do List</a></li>
-                <li> <a href="https://sheltered-chamber-10022.herokuapp.com/" target="_blank"><strong>Crud</strong> - Playlist Application</a> </li>
-                <li> <a href="https://pacific-springs-28604.herokuapp.com" target="_blank">Live Chat - Socket.IO</a> </li>
-                <li> <a href="https://murmuring-wildwood-34860.herokuapp.com/" target="_blank"><strong>NodeJs</strong> - File Uploader</a> </li>
-                <li> <a href="https://infinite-journey-81412.herokuapp.com/todo" target="_blank"><strong>NodeJs</strong> - ToDo App</a> </li>
-                <li> <a href="https://vast-wave-79233.herokuapp.com" target="_blank"><strong>NodeJs</strong> - SMS Messenger </a> </li>
-            </ul>
-          </div>
-          <div class="card-action"><span>April 2018 - Nov 2018</span></div>
-        </div>
-        <!-- Job -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2"><a href="https://en.wikipedia.org/wiki/TFI_International" target="_blank"><img alt="TransForce Inc" src="static/img/tfi.png" class="responsive-img center-block"></a></div>
-              <div class="col s12 m10">
-                <p><span class="card-title"><a href="https://en.wikipedia.org/wiki/TFI_International" target="_blank" class="teal-text hoverline">TFI Inc. </a></span></p>
-              </div>
+                <li>Setting up Dev Environment</li>
+                <li>Linux, Shell Scripting, Cron Jobs</li>
+                <li>HTML5, CSS3, and jQuery</li>
+                <li>Object Oriented Programming</li>
+                <li>Data Structure And Algos</li>
+                <li>Debugging</li>
+                <li>Setting up GIT, GITHUB, SSH</li>
+                <li>Node.js Packages</li>
+                <li>ReactJs, Express.js and MongoDb</li>
+                <li>Planning/Creating Wireframes and Schemas</li>
+                <li>Agile Software Development Life Cycle</li>
+                <li>Creating REST API</li>
+                <li>UI/UX Designing</li>
+                <li>Cloud Computing</li>
+              </ul>
+              <br />
+              <a href="#projects">Personal Projects</a>
+              <ul>
+                <li>
+                  <a href="http://159.65.155.169" target="_blank"
+                    ><strong>Mongo Express React Node</strong> Full Stack
+                    Project</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://mysterious-forest-55765.herokuapp.com/users/register"
+                    target="_blank"
+                    ><strong>Crud</strong> - Music Application
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://lit-oasis-18945.herokuapp.com/"
+                    target="_blank"
+                    ><strong>ReactJS</strong> - Song's Lyrics Search App
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://floating-bastion-67582.herokuapp.com/"
+                    target="_blank"
+                    ><strong>ReactJs Redux</strong> - Fantasy Football App
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://afternoon-anchorage-32108.herokuapp.com/"
+                    target="_blank"
+                    ><strong>ReactJs</strong> - To Do List</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://sheltered-chamber-10022.herokuapp.com/"
+                    target="_blank"
+                    ><strong>Crud</strong> - Playlist Application</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://pacific-springs-28604.herokuapp.com"
+                    target="_blank"
+                    >Live Chat - Socket.IO</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://murmuring-wildwood-34860.herokuapp.com/"
+                    target="_blank"
+                    ><strong>NodeJs</strong> - File Uploader</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://infinite-journey-81412.herokuapp.com/todo"
+                    target="_blank"
+                    ><strong>NodeJs</strong> - ToDo App</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://vast-wave-79233.herokuapp.com"
+                    target="_blank"
+                    ><strong>NodeJs</strong> - SMS Messenger
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="role brown-text">Business Analyst | Front End Developer</div>
-            <p><em class="grey-text">TFI International Inc. is a Canadian transport and logistics company based in Montreal, Quebec. It operates across Canada through 4 business segments, and in the United States. It has Canada's largest LTL business, largest trucking fleet and ranked top 5 in terms of revenue among North American LTL carriers . Its trucking fleet consists of ~6700 power units and ~12000 trailers.</em></p>
-            <h6>Responsibilities</h6>
-            <ul>
-              <li>Served as a <strong>liaison</strong> between different business units, for business and process improvement, in order to understand expectations and <strong>gather requirements</strong>.</li>
-              <li>Conducted individual and group <strong>JAD sessions</strong> with stakeholders and technical units to gather detailed requirements.</li>
-              <li>Conducted <strong>AS-IS and TO-BE</strong> analysis to determine the feasibility of the project.</li>
-              <li>Performed <strong>GAP analysis</strong> of business rules and business system process flows.</li>
-              <li>Identified processes that could be re-engineered, automated and eliminated in order to optimize the business as usual operations.</li>
-              <li>Verified requirements with users by conducting walkthroughs.</li>
-              <li>Created <strong>user stories</strong> and updated product backlog based on priority.</li>
-              <li>Utilized UML to create use case diagram, sequence diagram, and activity diagram.</li>
-              <li>Worked with quality test team to design test plans and test cases for <strong>User Acceptance Testing (UAT)</strong>.</li>
-              <li>Meticulously create, update, analyze and monitor daily logistics reports for <strong>Samsung</strong> and Saputo Dairy Products.</li>
-            </ul>
-            <h6>Accomplishments</h6>
-            <ul>
-            <li>Managed 5 Junior Supply Chain Coordinators, Reporting Directly to Samsung's Supply Chain Head Of Operations.</li>
-            </ul>
+            <div class="card-action"><span>April 2018 - Nov 2018</span></div>
           </div>
-          <div class="card-action"><span>Feb 2014 - March 2018 | Toronto, ON</span></div>
-        </div>
-        <!-- Job -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2"><a href="http://www.transgroup.com/technology.aspx" target="_blank"><img alt="TransGroup Worldwide Logistcs" src="static/img/transgroup.png" class="responsive-img center-block"></a></div>
-              <div class="col s12 m10">
-                <p><span class="card-title"><a href="http://www.transgroup.com/" target="_blank" class="teal-text hoverline">TransGroup Global Logistcs</a></span></p>
+          <!-- Job -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a
+                    href="https://en.wikipedia.org/wiki/TFI_International"
+                    target="_blank"
+                    ><img
+                      alt="TransForce Inc"
+                      src="static/img/tfi.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://en.wikipedia.org/wiki/TFI_International"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >TFI Inc.
+                      </a></span
+                    >
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="role brown-text">Logistics Coordinator</div>
-            <p><em class="grey-text"> TransGroup Global Logistics was founded with a single mission – to be the Future of Transport Logistics by bringing tomorrow’s supply chain technologies and best practices to their customers today. They are dedicated to developing the most advanced and flexible logistics software tools available.</em></p>
-            <h6>Responsibilities</h6>
-            <ul>
-              <li>Refined and executed prearranged strategy with clients, maintained ongoing communication and facilitated solutions to address their individual logistics concerns.</li>
-              <li>Negotiated rate quotes with 3rd party carriers. (LTL and Truckloads)</li>
-              <li>Coordinated supply chain projects within Canada.</li>
-              <li>Worked with 3PL (3rd Party Logistics) clients to fulfill storage and distribution needs across Canada in a timely fashion.</li>
-            </ul>
-          </div>
-          <div class="card-action"><span>Nov 2012 - Feb 2014 | Toronto, ON</span></div>
-        </div>
-        <!-- Job -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2"><a href="https://www.rohito.com/" target="_blank"><img alt="" src="static/img/classique-canada.png" class="responsive-img center-block"></a></div>
-              <div class="col s12 m10">
-                <p><span class="card-title"><a href="https://www.rohito.com/" target="_blank" class="teal-text hoverline">Classique Canada </a></span></p>
+              <div class="role brown-text">
+                Business Analyst | Front End Developer
               </div>
+              <p>
+                <em class="grey-text"
+                  >TFI International Inc. is a Canadian transport and logistics
+                  company based in Montreal, Quebec. It operates across Canada
+                  through 4 business segments, and in the United States. It has
+                  Canada's largest LTL business, largest trucking fleet and
+                  ranked top 5 in terms of revenue among North American LTL
+                  carriers . Its trucking fleet consists of ~6700 power units
+                  and ~12000 trailers.</em
+                >
+              </p>
+              <h6>Responsibilities</h6>
+              <ul>
+                <li>
+                  Served as a <strong>liaison</strong> between different
+                  business units, for business and process improvement, in order
+                  to understand expectations and
+                  <strong>gather requirements</strong>.
+                </li>
+                <li>
+                  Conducted individual and group
+                  <strong>JAD sessions</strong> with stakeholders and technical
+                  units to gather detailed requirements.
+                </li>
+                <li>
+                  Conducted <strong>AS-IS and TO-BE</strong> analysis to
+                  determine the feasibility of the project.
+                </li>
+                <li>
+                  Performed <strong>GAP analysis</strong> of business rules and
+                  business system process flows.
+                </li>
+                <li>
+                  Identified processes that could be re-engineered, automated
+                  and eliminated in order to optimize the business as usual
+                  operations.
+                </li>
+                <li>
+                  Verified requirements with users by conducting walkthroughs.
+                </li>
+                <li>
+                  Created <strong>user stories</strong> and updated product
+                  backlog based on priority.
+                </li>
+                <li>
+                  Utilized UML to create use case diagram, sequence diagram, and
+                  activity diagram.
+                </li>
+                <li>
+                  Worked with quality test team to design test plans and test
+                  cases for <strong>User Acceptance Testing (UAT)</strong>.
+                </li>
+                <li>
+                  Meticulously create, update, analyze and monitor daily
+                  logistics reports for <strong>Samsung</strong> and Saputo
+                  Dairy Products.
+                </li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>
+                  Managed 5 Junior Supply Chain Coordinators, Reporting Directly
+                  to Samsung's Supply Chain Head Of Operations.
+                </li>
+              </ul>
             </div>
-            <div class="role brown-text">Business Development | Book Keeper</div>
-            <p><em class="grey-text"> Classique Canada specializes in the Creation and Distribution of Canadian Souvenir Products. </em></p>
-            <ul>
-              <li>Controlled the full cycle accounting duties using Quick books, Microsoft Office (Word, Excel & PowerPoint), Net view (Internal logistics software) and TD Merchant (Banking software). </li>
-              <li>Communicated effectively with the president, third-party logistics Centre, local/international suppliers and store owners (clients). </li>
-              <li>Managed seasonal booth at multiple Convention Centres, across Canada. E.g. CGTA</li>
-            </ul>
-            <h6>Accomplishments</h6>
-            <ul>
-              <li>Single Handedly Managed the entire operations, working directly with the Founder and CEO.</li>
-              <li>Achieved and Exceeded yearly target of 1.4 Million in revenue</li>
-            </ul>
+            <div class="card-action">
+              <span>Feb 2014 - March 2018 | Toronto, ON</span>
+            </div>
           </div>
-          <div class="card-action"><span>Jan 2010 - Nov 2012  |  Toronto, ON</span></div>
-        </div>
-        <!-- Job -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2"><a href="https://www.utoronto.ca/" target="_blank"><img alt="University of Toronto" src="static/img/uoft.png" class="responsive-img center-block"></a></div>
-              <div class="col s12 m10">
-                <p><span class="card-title"><a href="https://www.utoronto.ca/" target="_blank" class="teal-text hoverline">University of Toronto</a></span></p>
+          <!-- Job -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a
+                    href="http://www.transgroup.com/technology.aspx"
+                    target="_blank"
+                    ><img
+                      alt="TransGroup Worldwide Logistcs"
+                      src="static/img/transgroup.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://www.transgroup.com/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >TransGroup Global Logistcs</a
+                      ></span
+                    >
+                  </p>
+                </div>
               </div>
+              <div class="role brown-text">Logistics Coordinator</div>
+              <p>
+                <em class="grey-text">
+                  TransGroup Global Logistics was founded with a single mission
+                  – to be the Future of Transport Logistics by bringing
+                  tomorrow’s supply chain technologies and best practices to
+                  their customers today. They are dedicated to developing the
+                  most advanced and flexible logistics software tools
+                  available.</em
+                >
+              </p>
+              <h6>Responsibilities</h6>
+              <ul>
+                <li>
+                  Refined and executed prearranged strategy with clients,
+                  maintained ongoing communication and facilitated solutions to
+                  address their individual logistics concerns.
+                </li>
+                <li>
+                  Negotiated rate quotes with 3rd party carriers. (LTL and
+                  Truckloads)
+                </li>
+                <li>Coordinated supply chain projects within Canada.</li>
+                <li>
+                  Worked with 3PL (3rd Party Logistics) clients to fulfill
+                  storage and distribution needs across Canada in a timely
+                  fashion.
+                </li>
+              </ul>
             </div>
-            <div class="role brown-text">Student Assistant</div>
-            <p><em class="grey-text"></em></p>
-            <h6>Hazel McCallion Library</h6>
-            <ul>
-              <li>Managed University’s network and security systems for desktops, laptops, printers, and projectors.</li>
-              <li>Worked with professors and students to meet hardware installs and software update needs. </li>
-            </ul>
-
+            <div class="card-action">
+              <span>Nov 2012 - Feb 2014 | Toronto, ON</span>
+            </div>
           </div>
-          <div class="card-action"><span>Sept 2008 - April 2010 | Toronto, ON</span></div>
+          <!-- Job -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://www.rohito.com/" target="_blank"
+                    ><img
+                      alt=""
+                      src="static/img/classique-canada.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.rohito.com/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Classique Canada
+                      </a></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">
+                Business Development | Book Keeper
+              </div>
+              <p>
+                <em class="grey-text">
+                  Classique Canada specializes in the Creation and Distribution
+                  of Canadian Souvenir Products.
+                </em>
+              </p>
+              <ul>
+                <li>
+                  Controlled the full cycle accounting duties using Quick books,
+                  Microsoft Office (Word, Excel & PowerPoint), Net view
+                  (Internal logistics software) and TD Merchant (Banking
+                  software).
+                </li>
+                <li>
+                  Communicated effectively with the president, third-party
+                  logistics Centre, local/international suppliers and store
+                  owners (clients).
+                </li>
+                <li>
+                  Managed seasonal booth at multiple Convention Centres, across
+                  Canada. E.g. CGTA
+                </li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>
+                  Single Handedly Managed the entire operations, working
+                  directly with the Founder and CEO.
+                </li>
+                <li>
+                  Achieved and Exceeded yearly target of 1.4 Million in revenue
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Jan 2010 - Nov 2012 | Toronto, ON</span>
+            </div>
+          </div>
+          <!-- Job -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://www.utoronto.ca/" target="_blank"
+                    ><img
+                      alt="University of Toronto"
+                      src="static/img/uoft.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.utoronto.ca/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >University of Toronto</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Student Assistant</div>
+              <p><em class="grey-text"></em></p>
+              <h6>Hazel McCallion Library</h6>
+              <ul>
+                <li>
+                  Managed University’s network and security systems for
+                  desktops, laptops, printers, and projectors.
+                </li>
+                <li>
+                  Worked with professors and students to meet hardware installs
+                  and software update needs.
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Sept 2008 - April 2010 | Toronto, ON</span>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <section id="education" class="section scrollspy">
+      </section>
+      <section id="education" class="section scrollspy">
         <h3 class="page-title white-text teal">Education</h3>
         <div class="container">
           <div class="row">
             <div class="col s12 m4 l4">
               <div class="card">
                 <div class="card-content">
-                  <p><span class="card-title"><a href="http://www.thehackingschool.com" class="teal-text hoverline">The
-                        Hacking School</a></span></p>
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://www.thehackingschool.com"
+                        class="teal-text hoverline"
+                        >The Hacking School</a
+                      ></span
+                    >
+                  </p>
                   <p class="brown-text">India | 2018</p>
-                  <h6>13 Weeks Coding Bootcamp </h6>
+                  <h6>13 Weeks Coding Bootcamp</h6>
                   <ul>
                     <li>MERN Stack</li>
                     <li>Full Stack Web Development</li>
@@ -611,8 +1708,15 @@
             <div class="col s12 m4 l4">
               <div class="card">
                 <div class="card-content">
-                  <p><span class="card-title"><a href="https://www.utoronto.ca/" class="teal-text hoverline">University
-                        of Toronto</a></span></p>
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.utoronto.ca/"
+                        class="teal-text hoverline"
+                        >University of Toronto</a
+                      ></span
+                    >
+                  </p>
                   <p class="brown-text">Toronto, ON | 2007 - 2011</p>
                   <h6>Honours Bachelor of Arts</h6>
                   <ul>
@@ -625,8 +1729,15 @@
             <div class="col s12 m4 l4">
               <div class="card">
                 <div class="card-content">
-                  <p><span class="card-title"><a href="https://www.cic-totalcare.com/" class="teal-text hoverline">Colombia
-                        International College</a></span></p>
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.cic-totalcare.com/"
+                        class="teal-text hoverline"
+                        >Colombia International College</a
+                      ></span
+                    >
+                  </p>
                   <p class="brown-text">Hamilton, ON | 2005 - 2007</p>
                   <h6>High School Diploma</h6>
                   <ul>
@@ -637,42 +1748,82 @@
             </div>
           </div>
         </div>
-    </section>
-    <section id="contact" class="section scrollspy ">
-          <h3 class="page-title white-text teal">Contact</h3>
-          <div class="container">
-            <p>
-              <a aria-label="Email Rohit" href="mailto:rohit.m.bhambhani@gmail.com" data-position="top" data-tooltip="Email Rohito"
-                class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                <i class="fa fa-envelope"></i></a><a href="mailto:rohit.m.bhambhani@gmail.com" class="hoverline">
-                Rohit.m.Bhambhani@gmail.com</a>
-            </p>
-            <p>
-              <a aria-label="Call Rohit" data-position="top" data-tooltip="Call Rohito" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                <i class="fa fa-phone"></i></a><a class="hoverline">
-                +1 416 579 2075</a>
-            </p>
-            <p>
-              <a aria-label="WhatsApp Rohito" href="https://api.whatsapp.com/send?phone=16479651186" target="_blank"
-                data-position="top" data-tooltip="WhatsApp Rohito" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                <i class="fa fa-whatsapp"></i></a><a href="https://api.whatsapp.com/send?phone=14165792075" target="_blank"
-                class="hoverline">
-                Direct Message Me On WhatsApp</a>
-            </p>
-            <p>
-              <a aria-label="View Rohito's GitHub" href="https://github.com/RohitoOo" target="_blank" data-position="top"
-                data-tooltip="View Rohito's GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                <i class="fa fa-github"></i></a><a href="https://github.com/RohitoOo" class="hoverline">
-                github.com/RohitoOo</a>
-            </p>
-            <p>
-              <a aria-label="View Rohit on LinkedIn" href="http://linkedin.com/in/rohitbhambhani" target="_blank"
-                data-position="top" data-tooltip="View Rohito on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                <i class="fa fa-linkedin"></i></a><a href="http://linkedin.com/in/rohitbhambhani" class="hoverline">
-                linkedin.com/in/RohitBhambhani</a>
-          </div>
-    </section>
-    <!-- <section id="photos" class="section scrollspy full-height">
+      </section>
+      <section id="contact" class="section scrollspy ">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p>
+            <a
+              aria-label="Email Rohit"
+              href="mailto:rohit.m.bhambhani@gmail.com"
+              data-position="top"
+              data-tooltip="Email Rohito"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+            >
+              <i class="fa fa-envelope"></i></a
+            ><a href="mailto:rohit.m.bhambhani@gmail.com" class="hoverline">
+              Rohit.m.Bhambhani@gmail.com</a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="Call Rohit"
+              data-position="top"
+              data-tooltip="Call Rohito"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+            >
+              <i class="fa fa-phone"></i></a
+            ><a class="hoverline"> +1 416 579 2075</a>
+          </p>
+          <p>
+            <a
+              aria-label="WhatsApp Rohito"
+              href="https://api.whatsapp.com/send?phone=16479651186"
+              target="_blank"
+              data-position="top"
+              data-tooltip="WhatsApp Rohito"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+            >
+              <i class="fa fa-whatsapp"></i></a
+            ><a
+              href="https://api.whatsapp.com/send?phone=14165792075"
+              target="_blank"
+              class="hoverline"
+            >
+              Direct Message Me On WhatsApp</a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View Rohito's GitHub"
+              href="https://github.com/RohitoOo"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Rohito's GitHub"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+            >
+              <i class="fa fa-github"></i></a
+            ><a href="https://github.com/RohitoOo" class="hoverline">
+              github.com/RohitoOo</a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View Rohit on LinkedIn"
+              href="http://linkedin.com/in/rohitbhambhani"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Rohito on LinkedIn"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+            >
+              <i class="fa fa-linkedin"></i></a
+            ><a href="http://linkedin.com/in/rohitbhambhani" class="hoverline">
+              linkedin.com/in/RohitBhambhani</a
+            >
+          </p>
+        </div>
+      </section>
+      <!-- <section id="photos" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Photos / Travel</h3>
       <div class=" container fluid">
 
@@ -720,29 +1871,24 @@
       </div>
 
     </section> -->
-  </main>
-  <!-- jQuery-->
+    </main>
+    <!-- jQuery-->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
 
-
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function() {
-      $('.scrollspy').scrollSpy();
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: 'left', // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks
-      });
-    });
-  </script>
-
-
-
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function() {
+        $(".scrollspy").scrollSpy()
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true // Closes side-nav on <a> clicks
+        })
+      })
+    </script>
   </body>
-
 </html>
